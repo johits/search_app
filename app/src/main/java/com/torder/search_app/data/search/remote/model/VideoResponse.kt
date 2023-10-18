@@ -1,4 +1,4 @@
-package com.torder.search_app.data.search.model
+package com.torder.search_app.data.search.remote.model
 
 import com.google.gson.annotations.SerializedName
 

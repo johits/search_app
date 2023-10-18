@@ -1,9 +1,9 @@
-package com.torder.search_app.data.search.datasource
+package com.torder.search_app.data.search.remote.datasource
 
 import com.torder.search_app.data.core.retrofit.di.IODispatcher
-import com.torder.search_app.data.search.api.SearchApi
-import com.torder.search_app.data.search.model.ImageResponse
-import com.torder.search_app.data.search.model.VideoResponse
+import com.torder.search_app.data.search.remote.api.SearchApi
+import com.torder.search_app.data.search.remote.model.ImageResponse
+import com.torder.search_app.data.search.remote.model.VideoResponse
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

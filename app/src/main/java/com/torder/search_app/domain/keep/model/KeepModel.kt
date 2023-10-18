@@ -1,6 +1,6 @@
-package com.torder.search_app.domain.search.model
+package com.torder.search_app.domain.keep.model
 
-data class SearchResult(
+data class KeepModel(
     val kind: String,
     val thumbnailUrl: String,
     val datetime: String,

@@ -1,7 +1,7 @@
-package com.torder.search_app.data.search.di
+package com.torder.search_app.data.search.remote.di
 
 import com.torder.search_app.data.core.retrofit.interceptor.HeaderInterceptor
-import com.torder.search_app.data.search.api.SearchApi
+import com.torder.search_app.data.search.remote.api.SearchApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

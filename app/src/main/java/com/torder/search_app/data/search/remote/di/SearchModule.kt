@@ -1,8 +1,8 @@
-package com.torder.search_app.data.search.di
+package com.torder.search_app.data.search.remote.di
 
-import com.torder.search_app.data.search.datasource.SearchDataSource
-import com.torder.search_app.data.search.datasource.SearchDataSourceImpl
-import com.torder.search_app.data.search.repository.SearchRepositoryImpl
+import com.torder.search_app.data.search.remote.datasource.SearchDataSource
+import com.torder.search_app.data.search.remote.datasource.SearchDataSourceImpl
+import com.torder.search_app.data.search.remote.repository.SearchRepositoryImpl
 import com.torder.search_app.domain.search.repository.SearchRepository
 import dagger.Binds
 import dagger.Module
