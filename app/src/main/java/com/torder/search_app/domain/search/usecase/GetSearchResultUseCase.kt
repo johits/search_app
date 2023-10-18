@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.toList
 import javax.inject.Inject
 
 
-class SearchImageUseCase @Inject constructor(
+class GetSearchResultUseCase @Inject constructor(
     private val searchRepository: SearchRepository
 ) {
     suspend operator fun invoke(
